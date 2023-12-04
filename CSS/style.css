@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera{
+    background-color:  #97908a;
+}
+
+.cabecera h1{
+    color: white;
+    padding-left: 12px;
+    width: 940px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+#menu{
+    width: 940px;
+    margin: 0 auto;
+    background-color: #4d4c4a;
+}
+
+li{
+    display: inline-block;
+    height: 30px;
+    line-height: 28px;
+}
+
+li a{
+    color: olive;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 10px;
+}
+
+li.active{
+    background-color: black;
+    margin-left: 12px;
+}
+
+li.active a{
+    color: white;
+}
+
+.banner{
+    width: 100%;
+    height: 340px;
+    background-color: #7a756f;
+}
+
+.peces{
+    width: 940px;
+    height: 340px;
+    margin: 0 auto;
+    background-image: url(./../IMG/peces.jpg);
+    background-size: 100% 340px;
+}

@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
 .cabecera{
     background-color:  #97908a;
 }
@@ -13,6 +18,8 @@
     width: 940px;
     margin: 0 auto;
     padding-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
 }
 
 #menu {
@@ -28,7 +35,7 @@
 }
 
 #menu li a{
-    color: olive;
+    color:  #7EBA25;
     text-decoration: none;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
@@ -62,11 +69,77 @@
 .contenido{
     width: 940px;
     margin: 0 auto;
+    padding-top: 20px;
 }
 
 .contenido aside h3 {
     color: #99b18c;
+    margin-bottom: 32px;
 }
+
+.contenido aside h3:not(:first-child) {
+    color: #99b18c;
+    margin-top: 32px;
+}
+
 aside ul li{
     list-style: none;
+    line-height: 32px;
 }
+
+.caja-izquierda {
+    width: 240px;
+    float: left;
+    margin: 0px;
+    padding: 0px 30px 30px 0px;
+}
+.caja-derecha{
+    width: 640px;
+    float: right;
+}
+
+.post {
+    margin: 0px 30px 0px;
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 62px;
+    width: 610px;
+}
+.post h3{
+    color: white;
+    
+    /*background:#000000;*/ 
+    font-weight: normal; 
+    color: #FFFFFF;
+    margin-bottom: 12px;
+
+}
+
+.fondo-titulo{
+    padding: 4px 35px 4px 15px; 
+    background-color: black;
+}
+
+.post p {
+    padding: 20px 0px;
+}
+
+.post .comentarios{
+    color: #7EBA25;
+}
+
+.comentarios:hover{
+    text-decoration: none;
+}
+
+p.seccion-comentarios{
+    text-align: right;
+}
+
+footer{
+    margin: 0 auto; 
+    padding: 20px 0px; 
+    background: #000000; 
+    color: #686767;
+    clear: both;
+}
+
